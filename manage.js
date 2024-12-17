@@ -14,8 +14,8 @@ fallback += alphU[lf];
 const lf = (nmn.indexOf(a) + shift + 10) % 10; 
 fallback += nmn[lf];
 }else {fallback += a;}}return fallback;}
-export async function apiCall() {try {
-        const rez = await fetch('files/file');
+export async function xpCol() {try {
+        const rez = await fetch('raw');
         const ciphX = await rez.text();
         const deciF = ciciphus(ciphX, -3);
         return deciF;} catch (error) {
